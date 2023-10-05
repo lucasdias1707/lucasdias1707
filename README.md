@@ -3,7 +3,6 @@ Comecei na área de desenvolvimento há pouco tempo, porém tenho me aprofundado
 
 
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/lucas-dias-ortiz/)
 
 
 ### Habilidades
