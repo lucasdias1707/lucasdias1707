@@ -22,7 +22,6 @@ Gosto de estudar novas tecnologias, praticar no dia a dia e estou sempre em busc
 ## 📊 Estatísticas
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lucasdias1707&theme=transparent&bg_color=0d1117&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=00b2ff&text_color=FFF)  
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=lucasdias1707&layout=compact&bg_color=000&border_color=30A3DC&title_color=00b2ff&text_color=FFF)
 
 ---
 
