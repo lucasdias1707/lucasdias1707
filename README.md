@@ -1,7 +1,8 @@
 # 👋 Olá, eu sou o Lucas Dias
 
-Comecei na área de desenvolvimento há pouco tempo, porém tenho me aprofundado cada vez mais e sempre tentando aprender o máximo possível.  
-Gosto de estudar novas tecnologias, praticar no dia a dia e estou sempre em busca de evolução contínua.  
+Desenvolvedor em constante desenvolvimento, focado em aprofundar meus conhecimentos e construir soluções.
+
+Estou sempre em busca de novas tecnologias para estudo e aplicação prática no dia a dia, com a evolução contínua como minha principal motivação.
 
 ---
 
@@ -25,7 +26,6 @@ Gosto de estudar novas tecnologias, praticar no dia a dia e estou sempre em busc
 
 ---
 
-## 📫 Como me encontrar
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/seu-usuario](https://www.linkedin.com/in/lucas-dias-ortiz/))
 
 ---
