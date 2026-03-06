@@ -19,6 +19,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -32,9 +33,11 @@ jobs:
         run: node generate-city.js
 
       - name: Commit & Push SVG
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update commit city SVG"
-          file_pattern: dist/commit-city.svg
-          branch: main
-          push_options: "--force"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add dist/commit-city.svg
+          git diff --cached --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "chore: update commit city SVG"
+          git push origin main
