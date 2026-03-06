@@ -1,0 +1,36 @@
+name: Generate Commit City
+
+on:
+  schedule:
+    - cron: "0 1 * * *"   # todo dia à 1h da manhã
+  workflow_dispatch:        # permite rodar manualmente
+  push:
+    branches: [main]        # roda também a cada push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: lucasdias1707
+        run: node generate-city.js
+
+      - name: Commit & Push SVG
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update commit city SVG"
+          file_pattern: dist/commit-city.svg
+          branch: main
