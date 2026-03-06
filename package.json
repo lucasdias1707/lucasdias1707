@@ -1,0 +1,12 @@
+{
+  "name": "commit-city",
+  "version": "1.0.0",
+  "description": "Generates a pixel-art city SVG from your GitHub repos and commit counts",
+  "main": "generate-city.js",
+  "scripts": {
+    "generate": "node generate-city.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
