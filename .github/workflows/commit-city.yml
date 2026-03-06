@@ -36,7 +36,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase origin main
+          git stash pop
           git add dist/commit-city.svg
           git diff --cached --quiet && echo "Nothing to commit" && exit 0
           git commit -m "chore: update commit city SVG"
