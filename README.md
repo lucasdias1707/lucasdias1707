@@ -44,11 +44,11 @@ Atualmente aprofundando conhecimentos em desenvolvimento backend com **NestJS**,
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
-  <img alt="Snake animation" src="dist/github-snake.svg" />
-</picture>
+## 🏙️ Commit City
+
+<div align="center">
+  <img src="dist/commit-city.svg" alt="Commit City" />
+</div>
 
 </div>
 
