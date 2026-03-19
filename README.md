@@ -40,7 +40,7 @@ Atualmente aprofundando conhecimentos em desenvolvimento backend com **NestJS**,
 
 ---
 
-## 🐍 Contribuições
+## 🟩 Contribuições
 
 <div align="center">
 
