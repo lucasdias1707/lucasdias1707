@@ -40,20 +40,6 @@ Atualmente aprofundando conhecimentos em desenvolvimento backend com **NestJS**,
 
 ---
 
-## 🟩 Contribuições
-
-<div align="center">
-
-## 🏙️ Commit City
-
-<div align="center">
-  <img src="dist/commit-city.svg" alt="Commit City" />
-</div>
-
-</div>
-
----
-
 <div align="center">
 
 *"Sempre aprendendo, sempre evoluindo."* 🚀
